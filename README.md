@@ -6,9 +6,9 @@
 代码初始化
 
 ```objc
-    BookMarkView *bookmarkViewRight = [[BookMarkView alloc] initWithFrame:CGRectMake(200, 100, 100, 300)];
-    bookmarkViewRight.bgColor = [UIColor redColor];
-    bookmarkViewRight.markLabel.text = @"已经看完第一章节";
+BookMarkView *bookmarkViewRight = [[BookMarkView alloc] initWithFrame:CGRectMake(200, 100, 100, 300)];
+bookmarkViewRight.bgColor = [UIColor redColor];
+bookmarkViewRight.markLabel.text = @"已经看完第一章节";
 ```
 
 xib或者StoryBoard里面也是可以直接指定你的view的class是BookMarkView，具体看Demo里面的做法
@@ -19,4 +19,4 @@ Advise to use CocoaPods to install BookMarkView, add following line into your `P
 `pod 'BookMarkView'`
 
 # ScreenShot
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/jianpx/BookMarkView/master/screenshot/bookmark.png)
